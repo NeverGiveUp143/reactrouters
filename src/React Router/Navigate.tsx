@@ -10,7 +10,7 @@ export const NavigateComponent = () => {
       <h2>Navigate</h2>
       <nav>
       <ul>
-        <li><NavLink to = '/' style={ ({isActive}) => { return isActive ? {color : 'red'} : {} } } >{ ({isActive}) => {
+        <li><NavLink to = '/' state={'Welcome to Home Page'} style={ ({isActive}) => { return isActive ? {color : 'red'} : {} } } >{ ({isActive}) => {
           return isActive ? 'Active Home' : 'Home'
         }  }</NavLink></li>
         <li><NavLink to = '/About'>About</NavLink></li>

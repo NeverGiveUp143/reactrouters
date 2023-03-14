@@ -23,12 +23,14 @@ export const NestedReactRoute = () => {
        <Route path='/' element = {<Home />}></Route>
        <Route path='/About' element = {<About />}></Route>
        <Route path='/Privacy' element = {<Privacy />}></Route>
+
        <Route path = '/Books'>
         <Route index element = {<Books/>} />
         <Route path = ':bookName' element = {<Books/>}/>
         <Route path = 'new' element = {<NewBooks/>} />
         <Route path = '*' element = {<NotFound/>} />
        </Route>
+       
        </Routes>
     </>
   );

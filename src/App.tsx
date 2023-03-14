@@ -1,10 +1,12 @@
+
 import './App.css';
-import NestedReactOutlet from './React Router/NestedReactOutlet';
+import { NavigateComponent } from './React Router/Navigate';
+;
 
 function App() {
   return (
    <>
-   <NestedReactOutlet />
+   <NavigateComponent />
    </>
   );
 }
