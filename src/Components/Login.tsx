@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { Navigate, Outlet } from "react-router-dom";
-import { AuthProvider, UseAuth } from "./AuthProvider";
+import {UseAuth } from "./AuthProvider";
 
 
 export const Login = () => {
