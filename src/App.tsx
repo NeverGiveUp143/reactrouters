@@ -1,14 +1,14 @@
 import './App.css';
-import { AuthProvider } from './Components/AuthProvider';
-import AuthRoutes from './React Router/AuthRoutes';
+import { AuthenticationProvider } from './Components/AuthenticationProvider';
+import { AuthRoutes } from './React Router/AuthRoutes';
 
 
 function App() {
   return (
    <>
-   <AuthProvider>
+     <AuthenticationProvider>
         <AuthRoutes />
-   </AuthProvider>
+     </AuthenticationProvider>
    </>
   );
 }

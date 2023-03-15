@@ -2,8 +2,9 @@
 export const Home = () => {
   return (
     <>
-      <h2>Home</h2>
-      <p>Welcome to home Page</p>
+      <h1>Home</h1>
     </>
   );
 }
+
+export default Home;
